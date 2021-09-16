@@ -1,0 +1,120 @@
+body {
+  width: 30%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(231, 231, 40, 0.753);
+  padding-top: 20px;
+  height: 100px;
+}
+.header__whitebox {
+  margin: 20px 5px;
+}
+.search__input {
+  background-color: white;
+  border-radius: 20px;
+  width: 530px;
+  height: 30px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+  border: solid rgb(253, 252, 252);
+}
+.search__whitebox {
+  position: relative;
+  left: 520px;
+  bottom: 50px;
+}
+.word:first-child {
+  font-weight: 600;
+  font-size: 28px;
+  margin-left: 15px;
+}
+.first__img {
+  padding-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+}
+#first {
+  display: flex;
+}
+.word2:first-child {
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.word2:nth-child(2) {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  opacity: 0.2;
+}
+.first__thirdflexbox {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.first__forthflexbox {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.first__forthflexbox__btn {
+  padding: 5px 20px;
+  border: solid rgb(250, 240, 240);
+}
+.first__fifthflexbox {
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.first__fifthflexbox__btn {
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+.word3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.second__img {
+  width: 139px;
+}
+.star__img {
+  display: flex;
+}
+.third__img:nth-child(2) {
+  margin-left: 40px;
+}
+.third__img:nth-child(3) {
+  margin-left: 35px;
+}
+.third__img:nth-child(4) {
+  margin-left: 33px;
+}
+.word4:first-child {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.last__img {
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 170px;
+  height: 200px;
+}
+.third__flexbox {
+  display: flex;
+}
+.word5:first-child {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.word5:last-child {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  opacity: 0.2;
+}
