@@ -8,110 +8,59 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="header__whitebox"><i class="fas fa-bars"></i></div>
-      <h3>Music</h3>
-      <div class="header__whitebox"><i class="fas fa-shopping-bag"></i></div>
-    </header>
-    <search>
-      <input
-        class="search__input"
-        type="text"
-        placeholder="         Search Music..."
-      />
-      <div class="search__whitebox">
-        <i class="fas fa-search"></i>
-      </div>
-    </search>
-    <main>
+    <main id="left">
+      <header>
+        <i class="fas fa-arrow-left"></i>
+        <div class="header__flexbox">
+          <i class="fas fa-search"></i>
+        </div>
+      </header>
       <section id="first">
-        <div class="first__flexbox">
-          <div class="word">Music of the day</div>
-          <img
-            class="first__img"
-            src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/130/513/82130513_1625722837604_1_600x600.JPG/dims/resize/Q_80,0"
-          />
-        </div>
-        <div class="first__secondflexbox">
-          <div class="word2">Stay</div>
-          <div class="word2">Justin Beiber</div>
-          <div class="first__thirdflexbox">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <div class="first__forthflexbox">
-            <button class="first__forthflexbox__btn">Journey</button>
-            <button class="first__forthflexbox__btn">Biography</button>
-          </div>
-          <div class="first__fifthflexbox">
-            <i class="fas fa-grin-stars fa-2x"></i>
-            <button class="first__fifthflexbox__btn">Music Now</button>
-          </div>
-        </div>
+        <img
+          class="main__img"
+          src="https://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/079/924/736/79924736_1614933424023_11_600x600.JPG/dims/resize/Q_80,0"
+        />
+        <h1 class="first__word">Justin Bieber</h1>
+        <h3 class="first__word">Pop</h3>
+        <button id="btn" class="btn">Shuffle</button>
+        <button class="btn">
+          <div class="btn__icon"><i class="fas fa-heart"></i> 212971</div>
+        </button>
       </section>
       <section id="second">
-        <div class="word3">Top Adventures</div>
-        <img
-          class="second__img"
-          src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/250/355/82250355_1631511999080_1_600x600.JPG/dims/resize/Q_80,0"
-        />
-        <img
-          class="second__img"
-          src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/045/022/82045022_1620896061233_1_600x600.JPG/dims/resize/Q_80,0"
-        />
-        <img
-          class="second__img"
-          src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/479/869/81479869_1592554370128_1_600x600.JPG/dims/resize/Q_80,0"
-        />
-        <img
-          class="second__img"
-          src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/226/171/82226171_1630380529826_1_600x600.JPG/dims/resize/Q_80,0"
-        />
-        <div class="star__img">
-          <div class="third__img">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <div class="third__img">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="third__img">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <div class="third__img">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+        <div class="second__flexbox">
+          <!--first Photo-->
+          <div class="second__inner__flexbox">
+            <p>Justin bieber</p>
+            <span>STAY</span>
           </div>
         </div>
-      </section>
-      <section id="third">
-        <div class="word4">Popular Artist</div>
-        <div class="third__flexbox">
-          <img
-            class="last__img"
-            src="https://image.genie.co.kr/Y/IMAGE/IMG_MUZICAT/IV2/Genie_Magazine/10466/Mgz_Main_List_20210709104334.jpg/dims/resize/Q_80,0"
-          />
-          <div class="third__secondflexbox">
-          <div class="word5">BTS</div>
-          <div class="word5">One of the most famous Artist in the world! BTS's songs are really good! Let"s listen together</div>
+        <div class="second__secondflexbox">
+          <!--second Photo-->
+          <div class="second__inner__secondflexbox">
+            <p>Justin Bieber</p>
+            <span>peaches</span>
+          </div>
         </div>
+        <div class="second__thirdflexbox">
+          <!--third Photo-->
+          <div class="second__inner__thirdflexbox">
+            <p>Justin Bieber</p>
+            <span>LOVE YOURSELF</span>
+          </div>
+        </div>
+        <div class="second__fourthflexbox">
+          <!--fourth Photo-->
+          <div class="second__inner__fourthflexbox">
+            <p>Justin bieber</p>
+            <span>STUCK WITH YOU</span>
+          </div>
+        </div>
+        <footer>
+          <div class="footer__word">Justin Bieber</div>
+          <div class="footer__word">LOVE YOURSELF</div>
+          <!--Music Icon-->
+        </footer>
       </section>
     </main>
     <script
