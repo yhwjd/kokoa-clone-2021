@@ -1,15 +1,16 @@
 body {
   background-color: rgb(248, 227, 230);
+  display: flex;
 }
 #left {
   background-color: white;
   margin-left: 100px;
   margin-top: 50px;
   width: 30%;
-  height: 700px;
+  height: 800px;
   border-radius: 30px;
 }
-header {
+.left__header {
   padding-top: 20px;
   padding-left: 20px;
 }
@@ -46,4 +47,193 @@ header {
 }
 .btn__icon {
   color: black;
+}
+.second__flexbox,
+.second__secondflexbox,
+.second__thirdflexbox,
+.second__fourthflexbox {
+  display: flex;
+}
+.second__firstphoto,
+.second__secondphoto,
+.second__thirdphoto,
+.second__fourthflexbox {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+.second__inner__flexbox,
+.second__inner__secondflexbox,
+.second__inner__thirdflexbox,
+.second__inner__fourthflexbox {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.second__inner__flexbox__span,
+.second__inner__secondflexbox__span,
+.second__inner__thirdflexbox__span,
+.second__inner__fourthflexbox__span {
+  font-weight: 600;
+}
+.first__dotimg {
+  position: relative;
+  left: 300px;
+  top: 50px;
+  color: gray;
+}
+.second__dotimg {
+  position: relative;
+  left: 300px;
+  top: 50px;
+  color: gray;
+}
+.third__dotimg {
+  position: relative;
+  left: 268px;
+  top: 50px;
+  color: gray;
+}
+.fourth__dotimg {
+  position: relative;
+  left: 265px;
+  top: 30px;
+  color: gray;
+}
+.second__inner__fourthflexbox__p {
+  position: relative;
+  bottom: 20px;
+}
+.second__inner__fourthflexbox__span {
+  position: relative;
+  bottom: 20px;
+}
+.footer__box {
+  background-color: black;
+  width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.footer__word1 {
+  color: gray;
+  position: relative;
+  top: 8px;
+  left: 30px;
+}
+.footer__word2 {
+  color: white;
+  position: relative;
+  font-size: 15px;
+  top: 8px;
+  left: 20px;
+}
+#right {
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 50px;
+  width: 30%;
+  height: 800px;
+  border-radius: 30px;
+}
+.right__headerimg:first-child {
+  position: relative;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.right__headerimg:last-child {
+  position: relative;
+  bottom: 20px;
+  left: 530px;
+}
+.right__mainimg {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+.right__p {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.right__span {
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  position: relative;
+  bottom: 17px;
+}
+.time__bar1,
+.time__bar2 {
+  font-size: 12px;
+  color: gray;
+}
+.time__bar1 {
+  position: relative;
+  left: 50px;
+}
+.time__bar2 {
+  position: relative;
+  left: 470px;
+  bottom: 30px;
+}
+.main__bar2 {
+  background-color: whitesmoke;
+  width: 150px;
+  height: 10px;
+  position: relative;
+  left: 345px;
+  bottom: 50px;
+  border-radius: 10px;
+}
+.main__bar1 {
+  background-color: black;
+  width: 300px;
+  height: 10px;
+  position: relative;
+  bottom: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.circle__img {
+  position: relative;
+  left: 332px;
+  bottom: 36px;
+}
+#fifth {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fifth__music1,
+.fifth__music5 {
+  color: gray;
+}
+.footer__icon {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 20px;
+}
+.footer__icon1,
+.footer__icon2,
+.footer__icon3 {
+  color: white;
+}
+.footer__icon1 {
+  position: relative;
+  left: 120px;
+}
+.footer__icon2 {
+  position: relative;
+  left: 80px;
+  transform: rotate(90deg);
+}
+.footer__icon3 {
+  position: relative;
+  left: 45px;
 }
